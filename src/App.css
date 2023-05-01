@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.body{
+  
+  overflow-x: auto;
+}
+.tabledata{
+  overflow-x: scroll;
+}
+.buttondata{
+  padding: 10px;
+}
+@media screen and (max-width:620px){
+  .buttondata{
+    margin: 2px;
+  }
+}
